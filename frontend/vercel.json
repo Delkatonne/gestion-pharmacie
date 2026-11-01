@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/api/:path*", "destination": "gestion-pharmacie-nu.vercel.app" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
